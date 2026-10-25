@@ -16,7 +16,7 @@ notes/                          Exploration notes and lessons learned
 
 ## Skills
 
-`.claude/skills/` and `.agents/skills/` maintain skills for Claude Code and Codex separately. Both currently contain these five skills for project knowledge capture:
+`.claude/skills/` and `.agents/skills/` maintain skills for Claude Code and Codex separately. Both provide these six skills; `utools-plugin-builder` consults current official documentation when developing uTools plugins:
 
 | Skill | Purpose |
 | --- | --- |
@@ -25,6 +25,7 @@ notes/                          Exploration notes and lessons learned
 | `init-mem` | Initialize project memory, or inspect and fill gaps in an existing system |
 | `task-handoff` | Pause and resume tasks, with save / resume modes |
 | `project-structure` | Diagnose structural problems and propose reorganizations |
+| `utools-plugin-builder` | Develop, modify, or troubleshoot uTools plugins using current official documentation |
 
 ## Notes
 

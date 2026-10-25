@@ -16,7 +16,7 @@ notes/                          探索笔记与经验记录
 
 ## Skills
 
-`.claude/skills/` 与 `.agents/skills/` 分别维护 Claude Code 和 Codex 的 Skill。目前两侧均有以下五个 Skill，用于管理项目的知识沉淀：
+`.claude/skills/` 与 `.agents/skills/` 分别维护 Claude Code 和 Codex 的 Skill。两侧共同维护以下六个 Skill；其中 `utools-plugin-builder` 按需查阅当前官方文档，辅助开发 uTools 插件：
 
 | Skill | 用途 |
 | --- | --- |
@@ -25,6 +25,7 @@ notes/                          探索笔记与经验记录
 | `init-mem` | 初始化项目记忆系统；已有系统则检查补齐 |
 | `task-handoff` | 任务暂停与恢复，支持 save / resume |
 | `project-structure` | 诊断项目结构问题并提出重组方案 |
+| `utools-plugin-builder` | 查官方文档并开发、修改或排查 uTools 插件 |
 
 ## 笔记
 
