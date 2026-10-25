@@ -39,4 +39,4 @@ Follow `.claude/specs/memory-and-handoff.sdoc` for this project's memory layers,
 
 - A task checkpoint records the state of one piece of work; project memory records reusable knowledge and decisions. They may refer to or overlap on an important decision, but neither replaces the other.
 - A handoff is workflow guidance, not a guarantee that another session can see unsaved conversation context. Persist important context in the checkpoint or configured memory system.
-- Do not create, migrate, or restructure the project's memory system during routine save/resume. Use `migrate-mem` only when the user asks to establish, repair, or materially reorganize that system.
+- Do not create, migrate, or restructure the project's memory system during routine save/resume. Use `init-mem` only when the user asks to establish, repair, or materially reorganize that system.

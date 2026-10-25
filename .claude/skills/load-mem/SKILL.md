@@ -14,4 +14,4 @@ When summarizing project memory for a human, use the project's documented langua
 3. Separate current durable decisions, project facts, user preferences, and historical notes. Prefer an explicitly current normative document over conflicting historical memory.
 4. Verify remembered file paths, symbols, settings, and commands still exist before relying on them. Use current code and configuration as evidence.
 5. Note stale or contradictory context briefly when it affects the task. Do not silently convert guesses into project rules.
-6. If the project has no documented memory system, state that memory loading was skipped. Do not guess memory paths or initialize the system automatically; ask or use `migrate-mem` only when the user requests establishing or repairing memory.
+6. If the project has no documented memory system, state that memory loading was skipped. Do not guess memory paths or initialize the system automatically; ask or use `init-mem` only when the user requests establishing or repairing memory.

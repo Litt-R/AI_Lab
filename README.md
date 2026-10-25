@@ -2,25 +2,27 @@
 
 [中文](README.md) | [English](README.en.md)
 
-探索各类 AI CLI 工具的个人试验项目，当前以 Claude Code 为主。
+探索多种 AI Agent 与 CLI 工具的个人试验项目，当前包含 Claude Code 和 Codex。主要探索 Skill、Agent 配置、工作流与协作方式，各工具的配置和技能可以在同一项目中并存。
 
 ## 内容
 
 ```
 .claude/
-└── skills/                     Skill：可复用的工作流指令
+└── skills/                     Claude Code 的可复用工作流指令
+.agents/
+└── skills/                     Codex 的可复用工作流指令
 notes/                          探索笔记与经验记录
 ```
 
 ## Skills
 
-`.claude/skills/` 下的五个 Skill，用于管理项目的知识沉淀：
+`.claude/skills/` 与 `.agents/skills/` 分别维护 Claude Code 和 Codex 的 Skill。目前两侧均有以下五个 Skill，用于管理项目的知识沉淀：
 
 | Skill | 用途 |
 | --- | --- |
 | `load-mem` | 开始工作时恢复项目记忆与上下文 |
 | `save-mem` | 保存可复用的决策与项目知识 |
-| `migrate-mem` | 建立或重整项目的记忆系统 |
+| `init-mem` | 初始化项目记忆系统；已有系统则检查补齐 |
 | `task-handoff` | 任务暂停与恢复，支持 save / resume |
 | `project-structure` | 诊断项目结构问题并提出重组方案 |
 

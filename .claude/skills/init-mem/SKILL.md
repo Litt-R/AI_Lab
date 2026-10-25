@@ -1,11 +1,11 @@
 ---
-name: migrate-mem
-description: Use when the user asks to establish, repair, or materially reorganize a project's memory system. Audit existing instructions and memories first; preserve project conventions and avoid assuming one universal architecture.
+name: init-mem
+description: Initialize a project's memory system, or inspect and fill gaps in an existing one when asked. Preserve existing knowledge and project conventions; identify any migration or major reorganization before changing it.
 ---
 
-# Migrate Memory
+# Initialize Memory
 
-Use this workflow only when the user asks to establish, repair, or materially reorganize a project's memory system. This concerns that project internally; it is not a mechanism for moving memory between projects.
+Use this workflow when the user asks to initialize or repair a project's memory system. If no system exists, establish its conventions, specifications, and index. If one already exists, inspect it and fill only missing or inconsistent parts; a repeat invocation must preserve existing knowledge and must not reset or duplicate the system. When initialization requires migration or major reorganization, describe the affected material and proceed only within the user's agreed scope. This workflow concerns the active project, not moving memory between projects.
 
 Write human-facing specifications, memory notes, and indexes in the active project's documented language. If none is specified, use the user's language, defaulting to Simplified Chinese for this user. Preserve code identifiers, filenames, and technical terms where appropriate. Keep project-local Skill instructions in English.
 

@@ -2,25 +2,27 @@
 
 [中文](README.md) | [English](README.en.md)
 
-A personal playground for exploring AI CLI tools, currently focused on Claude Code.
+A personal playground for exploring multiple AI agents and CLI tools, currently including Claude Code and Codex. It covers skills, agent configuration, workflows, and collaboration, with each tool's configuration and skills coexisting in the same project.
 
 ## Contents
 
 ```
 .claude/
-└── skills/                     Skills: reusable workflow instructions
+└── skills/                     Claude Code workflow instructions
+.agents/
+└── skills/                     Codex workflow instructions
 notes/                          Exploration notes and lessons learned
 ```
 
 ## Skills
 
-The five Skills under `.claude/skills/` manage knowledge capture for the project:
+`.claude/skills/` and `.agents/skills/` maintain skills for Claude Code and Codex separately. Both currently contain these five skills for project knowledge capture:
 
 | Skill | Purpose |
 | --- | --- |
 | `load-mem` | Restore project memory and context at the start of work |
 | `save-mem` | Persist reusable decisions and project knowledge |
-| `migrate-mem` | Establish or reorganize a project's memory system |
+| `init-mem` | Initialize project memory, or inspect and fill gaps in an existing system |
 | `task-handoff` | Pause and resume tasks, with save / resume modes |
 | `project-structure` | Diagnose structural problems and propose reorganizations |
 

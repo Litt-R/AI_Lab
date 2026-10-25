@@ -3,6 +3,11 @@ output/
 
 # 本地设置，不入库
 .claude/settings.local.json
+.codex/
+
+# Codex：仅公开项目 Skill，其他本地文件默认忽略
+.agents/*
+!.agents/skills/
 
 # 以下目录属本地工作记录，只保留在磁盘上
 .claude/memory/
@@ -12,6 +17,7 @@ output/
 
 # 项目工作指令，面向 agent 而非访客
 CLAUDE.md
+AGENTS.md
 
 # 临时文件
 *.tmp
